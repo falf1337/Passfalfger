@@ -171,8 +171,10 @@
 --reference:C:\Users\Michał Falfasiński\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Michał Falfasiński\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Michał Falfasiński\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
+--reference:D:\OneDrive\Pr0gramy\Git\Passfalfger\Passfalfger.Core\bin\Debug\netstandard1.6\Passfalfger.Core.dll
 --reference:D:\OneDrive\Pr0gramy\Git\Passfalfger\Passfalfger.Infrastructure\bin\Debug\netstandard1.6\Passfalfger.Infrastructure.dll
 --resource:"D:\OneDrive\Pr0gramy\Git\Passfalfger\Passfalfger.Api\obj\Debug\netcoreapp1.1\Passfalfger.Apidotnet-compile.deps.json",Passfalfger.Api.deps.json
 D:\OneDrive\Pr0gramy\Git\Passfalfger\Passfalfger.Api\Program.cs
 D:\OneDrive\Pr0gramy\Git\Passfalfger\Passfalfger.Api\Startup.cs
+D:\OneDrive\Pr0gramy\Git\Passfalfger\Passfalfger.Api\Controllers\UserController.cs
 D:\OneDrive\Pr0gramy\Git\Passfalfger\Passfalfger.Api\Controllers\ValuesController.cs

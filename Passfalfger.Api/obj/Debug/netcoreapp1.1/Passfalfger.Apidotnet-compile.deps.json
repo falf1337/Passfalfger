@@ -2485,6 +2485,9 @@
       "Passfalfger.Core/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "Passfalfger.Core.dll": {}
         }
       },
       "Passfalfger.Infrastructure/1.0.0": {
@@ -4858,6 +4861,9 @@
       "Passfalfger.Core/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "1.6.1"
+        },
+        "runtime": {
+          "Passfalfger.Core.dll": {}
         }
       },
       "Passfalfger.Infrastructure/1.0.0": {

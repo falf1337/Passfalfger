@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Passfalfger.Core.Repositories;
+using Passfalfger.Infrastructure.Services;
+using Passfalfger.Infrastructure.Repositories;
 
 namespace Passfalfger.Api
 {
@@ -28,6 +31,8 @@ namespace Passfalfger.Api
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
+            services.AddScoped<IUserRepository, InMemoryUserRepository>();
+            services.AddScoped<IUserService, UserService>();
             services.AddMvc();
         }
 
